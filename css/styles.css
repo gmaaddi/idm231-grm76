@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Lora-Bold';
+    src: url('../fonts/Lora-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lora-BoldItalic';
+    src: url('../fonts/Lora-BoldItalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lora-Italic';
+    src: url('../fonts/Lora-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lora-BoldRegular';
+    src: url('../fonts/Lora-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PrincessSofia-Regular';
+    src: url('../fonts/PrincessSofia-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background-image: url("../images-other/background-new.jpeg");
+    background-size: 1280px 861px;
+}
+
+.highlight {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+h1 {
+    font-family: 'PrincessSofia-Regular';
+    font-size: 3.158rem;
+}
+
+h2 {
+    font-family: 'Lora-Bold';
+    font-size: 1.333rem;
+}
+
+p {
+    font-family: 'Lora-Bold';
+    font-size: 1rem;
+}
+
+.top {
+    text-align: center;
+}
+  
+/* .middle {
+        position: relative;
+        width: 561.25px;
+        height: 546px;
+        border: 1px solid rgba(0,0,0,0.1);
+        border-radius: 50%;
+        transform: rotate(0deg);
+        transition: transform 0.7s linear;
+        margin: 0 auto;
+} */
+
+.flower {
+    text-align: center;
+}
