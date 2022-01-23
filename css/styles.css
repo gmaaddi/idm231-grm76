@@ -80,3 +80,83 @@ p {
 .flower {
     text-align: center;
 }
+
+.birthday {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flower1 {
+    position: absolute;
+    left: 675px;
+    top: 185px;
+}
+
+.flower2 {
+    position: absolute;
+    left: 787px;
+    top: 213px;
+}
+
+.flower3 {
+    position: absolute;
+    left: 875px;
+    top: 290px;
+}
+
+.flower4 {
+    position: absolute;
+    left: 905px;
+    top: 390px;
+}
+
+.flower5 {
+    position: absolute;
+    left: 875px;
+    top: 505px;
+}
+
+.flower6 {
+    position: absolute;
+    left: 787px;
+    top: 580px;
+}
+
+/* bottom middle flower */
+.flower7 {
+    position: absolute;
+    left: 675px;
+    top: 615px;
+}
+
+.flower8 {
+    position: absolute;
+    left: 570px;
+    top: 580px;
+}
+
+.flower9 {
+    position: absolute;
+    left: 480px;
+    top: 505px;
+}
+
+.flower10 {
+    position: absolute;
+    left: 455px;
+    top: 390px;
+}
+
+.flower11 {
+    position: absolute;
+    left: 475px;
+    top: 290px;
+}
+
+.flower12 {
+    position: absolute;
+    left: 565px;
+    top: 213px;
+}
