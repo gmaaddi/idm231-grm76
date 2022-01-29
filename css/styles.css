@@ -77,51 +77,46 @@ p {
         margin: 0 auto;
 } */
 
-.flower {
-    text-align: center;
-}
-
-.birthday {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 .flower1 {
     position: absolute;
     left: 675px;
     top: 185px;
+    z-index: 100;
 }
 
 .flower2 {
     position: absolute;
     left: 787px;
     top: 213px;
+    z-index: 100;
 }
 
 .flower3 {
     position: absolute;
     left: 875px;
     top: 290px;
+    z-index: 100;
 }
 
 .flower4 {
     position: absolute;
     left: 905px;
     top: 390px;
+    z-index: 100;
 }
 
 .flower5 {
     position: absolute;
     left: 875px;
     top: 505px;
+    z-index: 100;
 }
 
 .flower6 {
     position: absolute;
     left: 787px;
     top: 580px;
+    z-index: 100;
 }
 
 /* bottom middle flower */
@@ -129,34 +124,83 @@ p {
     position: absolute;
     left: 675px;
     top: 615px;
+    z-index: 100;
 }
 
 .flower8 {
     position: absolute;
     left: 570px;
     top: 580px;
+    z-index: 100;
 }
 
 .flower9 {
     position: absolute;
     left: 480px;
     top: 505px;
+    z-index: 100;
 }
 
 .flower10 {
     position: absolute;
     left: 455px;
     top: 390px;
+    z-index: 100;
 }
 
 .flower11 {
     position: absolute;
     left: 475px;
     top: 290px;
+    z-index: 100;
 }
 
 .flower12 {
     position: absolute;
     left: 565px;
     top: 213px;
+    z-index: 100;
+}
+
+
+
+/* .birthday {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+.content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 100;
+    top: 190px;
+}
+
+button {
+    display: flex;
+	background-color:#FFF1C6;
+    border: none;
+    box-shadow: 0px 8px 15px #C3A738;
+	border-radius:20px;
+	cursor:pointer;
+    width: 160px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0;
+    margin: 8px auto;
+}
+
+.flower {
+    position: absolute;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    z-index: 90;
+    top: -150px;
 }
