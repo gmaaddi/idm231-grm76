@@ -38,9 +38,17 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Lora-Medium';
+    src: url('../fonts/Lora-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     background-image: url("../images-other/background-new.jpeg");
-    background-size: 1280px 861px;
+    background-size: 1280px 870px;
 }
 
 .highlight {
@@ -53,12 +61,12 @@ h1 {
 }
 
 h2 {
-    font-family: 'Lora-Bold';
+    font-family: 'Lora-Medium';
     font-size: 1.333rem;
 }
 
 p {
-    font-family: 'Lora-Bold';
+    font-family: 'Lora-Medium';
     font-size: 1rem;
 }
 
@@ -79,87 +87,99 @@ p {
 
 .flower1 {
     position: absolute;
-    left: 675px;
-    top: 185px;
+    left: 678px;
+    top: 200px;
     z-index: 100;
+    cursor:pointer;
 }
 
 .flower2 {
     position: absolute;
-    left: 787px;
-    top: 213px;
+    left: 780px;
+    top: 230px;
     z-index: 100;
+    cursor:pointer;
 }
 
 .flower3 {
     position: absolute;
-    left: 875px;
-    top: 290px;
+    left: 855px;
+    top: 300px;
     z-index: 100;
+    cursor:pointer;
 }
 
 .flower4 {
     position: absolute;
-    left: 905px;
-    top: 390px;
+    left: 882px;
+    top: 400px;
     z-index: 100;
+    cursor:pointer;
 }
 
 .flower5 {
     position: absolute;
-    left: 875px;
-    top: 505px;
+    left: 855px;
+    top: 502px;
     z-index: 100;
+    cursor:pointer;
 }
 
 .flower6 {
     position: absolute;
-    left: 787px;
-    top: 580px;
+    left: 780px;
+    top: 577px;
     z-index: 100;
+    cursor:pointer;
 }
 
 /* bottom middle flower */
 .flower7 {
     position: absolute;
-    left: 675px;
-    top: 615px;
+    left: 678px;
+    top: 605px;
     z-index: 100;
+    cursor:pointer;
 }
 
 .flower8 {
     position: absolute;
-    left: 570px;
-    top: 580px;
+    left: 577px;
+    top: 577px;
     z-index: 100;
+    cursor:pointer;
 }
 
 .flower9 {
     position: absolute;
-    left: 480px;
-    top: 505px;
+    left: 500px;
+    top: 502px;
     z-index: 100;
+    cursor:pointer;
 }
 
 .flower10 {
     position: absolute;
-    left: 455px;
-    top: 390px;
+    left: 475px;
+    top: 400px;
     z-index: 100;
+    cursor:pointer;
 }
 
 .flower11 {
     position: absolute;
-    left: 475px;
-    top: 290px;
+    left: 502px;
+    top: 300px;
     z-index: 100;
+    cursor:pointer;
 }
 
 .flower12 {
     position: absolute;
-    left: 565px;
-    top: 213px;
+    left: 577px;
+    top: 225px;
     z-index: 100;
+    cursor:pointer;
 }
 
 
