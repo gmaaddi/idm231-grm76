@@ -74,6 +74,17 @@ p {
     text-align: center;
 }
   
+#icons {
+    width: 490px;
+    margin: 0 auto;
+    height: 490px;
+  }
+
+#icons img {
+    width: 82px;
+    height: 82px;
+}
+
 /* .middle {
         position: relative;
         width: 561.25px;
@@ -220,10 +231,28 @@ button {
     padding: 8px 0;
 }
 
-.button-input {
-	background-color:#FFF1C6;
-    box-shadow: 0px 8px 15px #C3A738;
-    margin: 8px auto;
+.input-bday {
+	border: #000 solid 1px;
+	border-radius:20px;
+    padding: 4px;
+    background-color:#FAEFCC;
+    width: 160px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.input-bday:hover {
+    color: #000;
+}
+
+.button-submit {
+    background-color:#FFF1C6;
+    border: #000 solid 1px;
+    transition: all 0.2s ease-in-out;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.button-submit:hover {
+    color: #000;
 }
 
 .button-back {
