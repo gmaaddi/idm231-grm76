@@ -65,9 +65,14 @@ h2 {
     font-size: 1.333rem;
 }
 
+h5 {
+    font-family: 'PrincessSofia-Regular';
+    font-size: 3.052rem;
+}
+
 p {
     font-family: 'Lora-Medium';
-    font-size: 1rem;
+    font-size: 0.875rem;
 }
 
 .top {
@@ -259,21 +264,92 @@ button {
     background-color:#FFFFF8;
 }
 
-.modal-section {
+/* .modal-section {
     display: flex;
     justify-content: center;
     position: relative;
     align-content: center;
     top: -154px;
-}
+} */
 
 .flower-section {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
 }
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.modal-section {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-content: center;
+    top: -142px;
+    left: 494px;
+    border-radius: 50%;
+    height: 450px;
+    width: 450px;
+    /* position: absolute; */
+    pointer-events: none;
+    background-color: aqua;
+    z-index: 200;
+}
 
 .modal-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.modal-title {
+    text-align: center;
+}
+
+.modal-name {
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+.modal-date {
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+
+.modal-content {
+    text-align: left; 
+    margin-top: 0; 
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 380px;
+}
+
+.modal-tags {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.modal-description {
+    display: flex;
+    align-items: center;
+    line-height: 1.5;
+    max-width: 400px;
+    justify-content: center;
+    text-align: left;
+}
+
+.modal-text {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 5px;
+}
+
+/* .modal-container {
     border-radius: 50%;
     height: 450px;
     width: 450px;
@@ -285,9 +361,9 @@ button {
     pointer-events: none;
     opacity: 0;
     transition: opacity 0.2s ease;
-}
+} */
 
-.modal {
+/* .modal {
     display: flex;
     flex-direction: column;
 }
@@ -325,7 +401,7 @@ button {
 
 .modal-transparent {
     margin-right: 20px;
-}
+} */
 
 /* Click flower icon (daffodil 1) */
 .modal-1 {
@@ -511,7 +587,6 @@ button {
     justify-content: center;
 } */
 
-
 .top-sun {
     text-align: center;
     position: absolute;
@@ -529,6 +604,7 @@ button {
     z-index: 100;
     left: 50%;
     width: 240px;
+    cursor:pointer;
 }
 
 .container-sun {
@@ -536,4 +612,8 @@ button {
     top: 0;
     left: 900px;
     margin-top: 30px;
+}
+
+[hidden] {
+	display: none !important;
 }
