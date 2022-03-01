@@ -40,11 +40,12 @@ const back10 = document.getElementById('back10');
 const back11 = document.getElementById('back11');
 const back12 = document.getElementById('back12');
 
-
 // Open/close daffodil (1)
 daffodilBtn.addEventListener('click', function() {
     console.log('daffodil button clicked');
     modalContainer1.classList.add('show');
+    speakers.src = `sounds/daffodil-sound.mp3`;
+    speakers.play();
 });
 back1.addEventListener('click', function() {
     modalContainer1.classList.remove('show');
@@ -55,6 +56,8 @@ back1.addEventListener('click', function() {
 daisyBtn.addEventListener('click', function() {
     console.log('daisy button clicked');
     modalContainer2.classList.add('show');
+    speakers.src = `sounds/daisy-sound.mp3`;
+    speakers.play();
 });
 back2.addEventListener('click', function() {
     modalContainer2.classList.remove('show');
@@ -65,6 +68,8 @@ back2.addEventListener('click', function() {
 lilyBtn.addEventListener('click', function() {
     console.log('lily button clicked');
     modalContainer3.classList.add('show');
+    speakers.src = `sounds/lily-sound.mp3`;
+    speakers.play();
 });
 back3.addEventListener('click', function() {
     modalContainer3.classList.remove('show');
@@ -75,6 +80,8 @@ back3.addEventListener('click', function() {
 roseBtn.addEventListener('click', function() {
     console.log('rose button clicked');
     modalContainer4.classList.add('show');
+    speakers.src = `sounds/rose-sound.mp3`;
+    speakers.play();
 });
 back4.addEventListener('click', function() {
     modalContainer4.classList.remove('show');
@@ -85,6 +92,8 @@ back4.addEventListener('click', function() {
 sunflowerBtn.addEventListener('click', function() {
     console.log('sunflower button clicked');
     modalContainer5.classList.add('show');
+    speakers.src = `sounds/sunflower-sound.mp3`;
+    speakers.play();
 });
 back5.addEventListener('click', function() {
     modalContainer5.classList.remove('show');
@@ -95,6 +104,8 @@ back5.addEventListener('click', function() {
 poppyBtn.addEventListener('click', function() {
     console.log('poppy button clicked');
     modalContainer6.classList.add('show');
+    speakers.src = `sounds/poppy-sound.mp3`;
+    speakers.play();
 });
 back6.addEventListener('click', function() {
     modalContainer6.classList.remove('show');
@@ -105,6 +116,8 @@ back6.addEventListener('click', function() {
 geraniumBtn.addEventListener('click', function() {
     console.log('geranium button clicked');
     modalContainer7.classList.add('show');
+    speakers.src = `sounds/geranium-sound.mp3`;
+    speakers.play();
 });
 back7.addEventListener('click', function() {
     modalContainer7.classList.remove('show');
@@ -115,6 +128,8 @@ back7.addEventListener('click', function() {
 marigoldBtn.addEventListener('click', function() {
     console.log('marigold button clicked');
     modalContainer8.classList.add('show');
+    speakers.src = `sounds/marigold-sound.mp3`;
+    speakers.play();
 });
 back8.addEventListener('click', function() {
     modalContainer8.classList.remove('show');
@@ -125,6 +140,8 @@ back8.addEventListener('click', function() {
 chrysanthemumBtn.addEventListener('click', function() {
     console.log('chrysanthemum button clicked');
     modalContainer9.classList.add('show');
+    speakers.src = `sounds/chrysanthemum-sound.mp3`;
+    speakers.play();
 });
 back9.addEventListener('click', function() {
     modalContainer9.classList.remove('show');
@@ -135,6 +152,8 @@ back9.addEventListener('click', function() {
 pansyBtn.addEventListener('click', function() {
     console.log('pansy button clicked');
     modalContainer10.classList.add('show');
+    speakers.src = `sounds/pansy-sound.mp3`;
+    speakers.play();
 });
 back10.addEventListener('click', function() {
     modalContainer10.classList.remove('show');
@@ -145,6 +164,8 @@ back10.addEventListener('click', function() {
 carnationBtn.addEventListener('click', function() {
     console.log('carnation button clicked');
     modalContainer11.classList.add('show');
+    speakers.src = `sounds/carnation-sound.mp3`;
+    speakers.play();
 });
 back11.addEventListener('click', function() {
     modalContainer11.classList.remove('show');
@@ -155,6 +176,8 @@ back11.addEventListener('click', function() {
 orchidBtn.addEventListener('click', function() {
     console.log('orchid button clicked');
     modalContainer12.classList.add('show');
+    speakers.src = `sounds/orchid-sound.mp3`;
+    speakers.play();
 });
 back12.addEventListener('click', function() {
     modalContainer12.classList.remove('show');
