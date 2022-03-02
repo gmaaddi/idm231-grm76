@@ -1,276 +1,289 @@
 // buttons for each flower icon
-const daffodilBtn = document.getElementById('daffodil');
-const daisyBtn = document.getElementById('daisy');
-const lilyBtn = document.getElementById('lily');
-const roseBtn = document.getElementById('rose');
-const sunflowerBtn = document.getElementById('sunflower');
-const poppyBtn = document.getElementById('poppy');
-const geraniumBtn = document.getElementById('geranium');
-const marigoldBtn = document.getElementById('marigold');
-const chrysanthemumBtn = document.getElementById('chrysanthemum');
-const pansyBtn = document.getElementById('pansy');
-const carnationBtn = document.getElementById('carnation');
-const orchidBtn = document.getElementById('orchid');
+const daffodilBtn = document.getElementById('Ari');
+const daisyBtn = document.getElementById('Tau');
+const lilyBtn = document.getElementById('Gem');
+const roseBtn = document.getElementById('Can');
+const sunflowerBtn = document.getElementById('Leo');
+const poppyBtn = document.getElementById('Vir');
+const geraniumBtn = document.getElementById('Lib');
+const marigoldBtn = document.getElementById('Sco');
+const chrysanthemumBtn = document.getElementById('Sag');
+const pansyBtn = document.getElementById('Cap');
+const carnationBtn = document.getElementById('Aqu');
+const orchidBtn = document.getElementById('Pis');
 
-// modal containers
-// const modalContainer1 = document.getElementById('modalContainer1');
-// const modalContainer2 = document.getElementById('modalContainer2');
-// const modalContainer3 = document.getElementById('modalContainer3');
-// const modalContainer4 = document.getElementById('modalContainer4');
-// const modalContainer5 = document.getElementById('modalContainer5');
-// const modalContainer6 = document.getElementById('modalContainer6');
-// const modalContainer7 = document.getElementById('modalContainer7');
-// const modalContainer8 = document.getElementById('modalContainer8');
-// const modalContainer9 = document.getElementById('modalContainer9');
-// const modalContainer10 = document.getElementById('modalContainer10');
-// const modalContainer11 = document.getElementById('modalContainer11');
-// const modalContainer12 = document.getElementById('modalContainer12');
+// Cap = pansy
+// Sag = chrysanthemum
+// Sco = marigold
+// Lib = geranium
+// Vir = poppy
+// Leo = sunflower
+// Can = rose
+// Gem = lily
+// Tau = daisy
+// Ari = daffodil
+// Pis = orchid
+// Aqu = carnation
 
-// back buttons for each flower icon
-// const back1 = document.getElementById('back1');
-// const back2 = document.getElementById('back2');
-// const back3 = document.getElementById('back3');
-// const back4 = document.getElementById('back4');
-// const back5 = document.getElementById('back5');
-// const back6 = document.getElementById('back6');
-// const back7 = document.getElementById('back7');
-// const back8 = document.getElementById('back8');
-// const back9 = document.getElementById('back9');
-// const back10 = document.getElementById('back10');
-// const back11 = document.getElementById('back11');
-// const back12 = document.getElementById('back12');
-
-const zContainer = document.getElementById('zContainer');
-const zFlower = document.getElementById('zFlower');
-const zDate = document.getElementById('zDate');
-const zTags = document.getElementById('zTags');
-const zDescription = document.getElementById('zDescription');
-const zImage = document.getElementById('zImage');
-
-// Open/close daffodil (1)
 daffodilBtn.addEventListener('click', function() {
-    console.log('daffodil button clicked');
-    // modalContainer1.classList.add('show');
-    speakers.src = `sounds/daffodil-sound.mp3`;
-    speakers.play();
-    zFlower.innerHTML = 'Daffodil';
-    zDate.innerHTML = 'March 21-April 20';
-    zTags.innerHTML = 'Hope, Rebirth, Spring';
-    zDescription.innerHTML = 'Daffodils bloom each year following the cold winter months. You are resilient when faced with obstacles and continuously bounce back. Your persistence and ability to adapt to your surroundings are your true strengths.';
-    zImage.src = 'graphics/daffodil-transparent.png';
-    modal.hidden = !modal.hidden;
-    document.getElementById('modal').style.backgroundColor = "#D1DE96";
+    userPicked('Ari');
 });
-// back1.addEventListener('click', function() {
-//     modalContainer1.classList.remove('show');
-//     console.log('daffodil button closed');
-// });
 
-// Open/close daisy (2)
 daisyBtn.addEventListener('click', function() {
-    console.log('daisy button clicked');
-    // modalContainer2.classList.add('show');
-    speakers.src = `sounds/daisy-sound.mp3`;
-    speakers.play();
-    zFlower.innerHTML = 'Daisy';
-    zDate.innerHTML = 'April 21-May 20';
-    zTags.innerHTML = 'Innocence, Simplicity, Joy';
-    zDescription.innerHTML = 'Your cheery, easygoing personality is what people love most about you! You have a positive outlook on life and choose to see the best in every situation.';
-    zImage.src = 'graphics/daisy-transparent.png';
-    modal.hidden = !modal.hidden;
-    document.getElementById('modal').style.backgroundColor = "#ADE6E6";
+    userPicked('Tau');
 });
-// back2.addEventListener('click', function() {
-//     modalContainer2.classList.remove('show');
-//     console.log('daisy button closed');
-// });
 
-// Open/close lily (3)
 lilyBtn.addEventListener('click', function() {
-    console.log('lily button clicked');
-    // modalContainer3.classList.add('show');
-    speakers.src = `sounds/lily-sound.mp3`;
-    speakers.play();
-    zFlower.innerHTML = 'Lily';
-    zDate.innerHTML = 'May 21-June 20';
-    zTags.innerHTML = 'Warmth, Gentleness, Compassion';
-    zDescription.innerHTML = 'You have a natural ability to bring comfort to anyone seeking your help. Your delicate touch makes people feel safe enough to confide in you.';
-    zImage.src = 'graphics/lily-transparent.png';
-    modal.hidden = !modal.hidden;
-    document.getElementById('modal').style.backgroundColor = "#F9DDE7";
+    userPicked('Gem');
 });
-// back3.addEventListener('click', function() {
-//     modalContainer3.classList.remove('show');
-//     console.log('lily button closed');
-// });
 
-// Open/close rose (4)
 roseBtn.addEventListener('click', function() {
-    console.log('rose button clicked');
-    // modalContainer4.classList.add('show');
-    speakers.src = `sounds/rose-sound.mp3`;
-    speakers.play();
-    zFlower.innerHTML = 'Rose';
-    zDate.innerHTML = 'June 21-July 22';
-    zTags.innerHTML = 'Love, Passion, Sophistication';
-    zDescription.innerHTML = 'Guided by your emotions, you tend to think with your heart. You may appear guarded or closed off at first, but the thorns exist to protect you from getting hurt.';
-    zImage.src = 'graphics/rose-transparent.png';
-    modal.hidden = !modal.hidden;
-    document.getElementById('modal').style.backgroundColor = "#F5B1B7";
+    userPicked('Can');
 });
-// back4.addEventListener('click', function() {
-//     modalContainer4.classList.remove('show');
-//     console.log('rose button closed');
-// });
 
-// Open/close sunflower (5)
 sunflowerBtn.addEventListener('click', function() {
-    console.log('sunflower button clicked');
-    // modalContainer5.classList.add('show');
-    speakers.src = `sounds/sunflower-sound.mp3`;
-    speakers.play();
-    zFlower.innerHTML = 'Sunflower';
-    zDate.innerHTML = 'July 23-August 22';
-    zTags.innerHTML = 'Loyalty, Boldness, Longevity';
-    zDescription.innerHTML = 'You shine bright for the world to see because you are unafraid to be your authentic self. You love meeting new people, and your warm, outgoing personality makes you a true joy to be around.';
-    zImage.src = 'graphics/sunflower-transparent.png';
-    modal.hidden = !modal.hidden;
-    document.getElementById('modal').style.backgroundColor = "#F9D9A1";
+    userPicked('Leo');
 });
-// back5.addEventListener('click', function() {
-//     modalContainer5.classList.remove('show');
-//     console.log('sunflower button closed');
-// });
 
-// Open/close poppy (6)
 poppyBtn.addEventListener('click', function() {
-    console.log('poppy button clicked');
-    // modalContainer6.classList.add('show');
-    speakers.src = `sounds/poppy-sound.mp3`;
-    speakers.play();
-    zFlower.innerHTML = 'Poppy';
-    zDate.innerHTML = 'August 23-September 22';
-    zTags.innerHTML = 'Vibrance, Creativity, Enthusiasm';
-    zDescription.innerHTML = 'You are a natural leader, and your enthusiasm is apparent in everything you do! Your vibrant personality often makes you the center of attention, and you thrive under a spotlight.';
-    zImage.src = 'graphics/poppy-transparent.png';
-    modal.hidden = !modal.hidden;
-    document.getElementById('modal').style.backgroundColor = "#F6BBAB";
+    userPicked('Vir');
 });
-// back6.addEventListener('click', function() {
-//     modalContainer6.classList.remove('show');
-//     console.log('poppy button closed');
-// });
 
-// Open/close geranium (7)
 geraniumBtn.addEventListener('click', function() {
-    console.log('geranium button clicked');
-    // modalContainer7.classList.add('show');
-    speakers.src = `sounds/geranium-sound.mp3`;
-    speakers.play();
-    zFlower.innerHTML = 'Geranium';
-    zDate.innerHTML = 'August 23-September 22';
-    zTags.innerHTML = 'Mystery, Ingenuity, Nonchalance';
-    zDescription.innerHTML = 'Geraniums grow in tight groups, and similarly, you like to stick to a small, close-knit group of acquaintances. The people closest to you will see the sensitive and clever sides of your personality, but to everyone else, you are a mystery.';
-    zImage.src = 'graphics/geranium-transparent.png';
-    modal.hidden = !modal.hidden;
-    document.getElementById('modal').style.backgroundColor = "#EDAAA4";
+    userPicked('Lib');
 });
-// back7.addEventListener('click', function() {
-//     modalContainer7.classList.remove('show');
-//     console.log('geranium button closed');
-// });
 
-// Open/close marigold (8)
 marigoldBtn.addEventListener('click', function() {
-    console.log('marigold button clicked');
-    // modalContainer8.classList.add('show');
-    speakers.src = `sounds/marigold-sound.mp3`;
-    speakers.play();
-    zFlower.innerHTML = 'Marigold';
-    zDate.innerHTML = 'October 23-November 22';
-    zTags.innerHTML = 'Creativity, Versatility, Motivation';
-    zDescription.innerHTML = 'You are a hard-working person who is highly motivated to succeed. You strive to create harmony and incorporate creativity into all aspects of your life. You love taking on new challenges since they have the potential for success.';
-    zImage.src = 'graphics/marigold-transparent.png';
-    modal.hidden = !modal.hidden;
-    document.getElementById('modal').style.backgroundColor = "#F4B18D";
+    userPicked('Sco');
 });
-// back8.addEventListener('click', function() {
-//     modalContainer8.classList.remove('show');
-//     console.log('marigold button closed');
-// });
 
-// Open/close chrysanthemum (9)
 chrysanthemumBtn.addEventListener('click', function() {
-    console.log('chrysanthemum button clicked');
-    // modalContainer9.classList.add('show');
-    speakers.src = `sounds/chrysanthemum-sound.mp3`;
-    speakers.play();
-    zFlower.innerHTML = 'Chrysanthemum';
-    zDate.innerHTML = 'November 23-December 21';
-    zTags.innerHTML = 'Friendship, Sensitivity, Optimism';
-    zDescription.innerHTML = 'You are the best friend anyone can ask for and a true beacon of light! You are sensitive and nurturing, and you choose to see the best in every situation.';
-    zImage.src = 'graphics/chrysanthemum-transparent.png';
-    modal.hidden = !modal.hidden;
-    document.getElementById('modal').style.backgroundColor = "#D59884";
+    userPicked('Sag');
 });
-// back9.addEventListener('click', function() {
-//     modalContainer9.classList.remove('show');
-//     console.log('chrysanthemum button closed');
-// });
 
-// Open/close pansy (10)
 pansyBtn.addEventListener('click', function() {
-    console.log('pansy button clicked');
-    // modalContainer10.classList.add('show');
-    speakers.src = `sounds/pansy-sound.mp3`;
-    speakers.play();
-    zFlower.innerHTML = 'Pansy';
-    zDate.innerHTML = 'November 23-January 19';
-    zTags.innerHTML = 'Tenacity, Kindness, Thoughtfulness';
-    zDescription.innerHTML = 'Coming from a French word meaning "to think," pansies inspire reflection and contemplation. Likewise, you prefer thorough planning over jumping headfirst into a situation. You are ambitious and practical, which aids you in many facets of life.';
-    zImage.src = 'graphics/pansy-transparent.png';
-    modal.hidden = !modal.hidden;
-    document.getElementById('modal').style.backgroundColor = "#D9C3FB";
+    userPicked('Cap');
 });
-// back10.addEventListener('click', function() {
-//     modalContainer10.classList.remove('show');
-//     console.log('pansy button closed');
-// });
 
-// Open/close carnation (11)
 carnationBtn.addEventListener('click', function() {
-    console.log('carnation button clicked');
-    // modalContainer11.classList.add('show');
-    speakers.src = `sounds/carnation-sound.mp3`;
-    speakers.play();
-    zFlower.innerHTML = 'Carnation';
-    zDate.innerHTML = 'January 20-February 19';
-    zTags.innerHTML = 'Fascination, Remembrance, Stability';
-    zDescription.innerHTML = 'Like carnations, which typically last longer than other flowers in a bouquet, people love that you are so dependable. You set high personal and career goals, but you always make time for the people that matter most.';
-    zImage.src = 'graphics/carnation-transparent.png';
-    modal.hidden = !modal.hidden;
-    document.getElementById('modal').style.backgroundColor = "#EDB4B3";
+    userPicked('Aqu');
 });
-// back11.addEventListener('click', function() {
-//     modalContainer11.classList.remove('show');
-//     console.log('carnation button closed');
-// });
 
-// Open/close orchid (12)
 orchidBtn.addEventListener('click', function() {
-    console.log('orchid button clicked');
-    // modalContainer12.classList.add('show');
-    speakers.src = `sounds/orchid-sound.mp3`;
-    speakers.play();
-    zFlower.innerHTML = 'Orchid';
-    zDate.innerHTML = 'February 20-March 20';
-    zTags.innerHTML = 'Selflessness, Refinement, Uniqueness';
-    zDescription.innerHTML = 'You don not like to stand out in a crowd. You seem reserved unless surrounded by the people you trust. You stay true to who you are and do not conform to fit the social norm.';
-    zImage.src = 'graphics/orchid-transparent.png';
-    modal.hidden = !modal.hidden;
-    document.getElementById('modal').style.backgroundColor = "#EABFE7";
+    userPicked('Pis');
 });
-// back12.addEventListener('click', function() {
-//     modalContainer12.classList.remove('show');
-//     console.log('orchid button closed');
-// });
+
+function userPicked(buttonName) {
+
+    const zFlower = document.getElementById('zFlower');
+    const zDate = document.getElementById('zDate');
+    const zTags = document.getElementById('zTags');
+    const zDescription = document.getElementById('zDescription');
+    const zImage = document.getElementById('zImage');
+
+    switch (buttonName) {
+
+        case 'Ari':
+            console.log('daffodil button clicked');
+            speakers.src = `sounds/daffodil-sound.mp3`;
+            speakers.play();
+            zFlower.innerHTML = 'Daffodil';
+            zDate.innerHTML = 'March 21-April 19';
+            zTags.innerHTML = 'Hope, Rebirth, Spring';
+            zDescription.innerHTML = 'Daffodils bloom each year following the cold winter months. You are resilient when faced with obstacles and continuously bounce back. Your persistence and ability to adapt to your surroundings are your true strengths.';
+            zImage.src = 'graphics/daffodil-transparent.png';
+            modal.hidden = !modal.hidden;
+            document.getElementById('modal').style.backgroundColor = "#D1DE96";
+        break;
+
+        case 'Tau':
+            console.log('daisy button clicked');
+            speakers.src = `sounds/daisy-sound.mp3`;
+            speakers.play();
+            zFlower.innerHTML = 'Daisy';
+            zDate.innerHTML = 'April 20-May 20';
+            zTags.innerHTML = 'Innocence, Simplicity, Joy';
+            zDescription.innerHTML = 'Your cheery, easygoing personality is what people love most about you! You have a positive outlook on life and choose to see the best in every situation.';
+            zImage.src = 'graphics/daisy-transparent.png';
+            modal.hidden = !modal.hidden;
+            document.getElementById('modal').style.backgroundColor = "#ADE6E6";
+        break;
+
+        case 'Gem':
+            console.log('lily button clicked');
+            speakers.src = `sounds/lily-sound.mp3`;
+            speakers.play();
+            zFlower.innerHTML = 'Lily';
+            zDate.innerHTML = 'May 21-June 21';
+            zTags.innerHTML = 'Warmth, Gentleness, Compassion';
+            zDescription.innerHTML = 'You have a natural ability to bring comfort to anyone seeking your help. Your delicate touch makes people feel safe enough to confide in you.';
+            zImage.src = 'graphics/lily-transparent.png';
+            modal.hidden = !modal.hidden;
+            document.getElementById('modal').style.backgroundColor = "#F9DDE7";
+        break;
+
+        case 'Can':
+            console.log('rose button clicked');
+            speakers.src = `sounds/rose-sound.mp3`;
+            speakers.play();
+            zFlower.innerHTML = 'Rose';
+            zDate.innerHTML = 'June 22-July 22';
+            zTags.innerHTML = 'Love, Passion, Sophistication';
+            zDescription.innerHTML = 'Guided by your emotions, you tend to think with your heart. You may appear guarded or closed off at first, but the thorns exist to protect you from getting hurt.';
+            zImage.src = 'graphics/rose-transparent.png';
+            modal.hidden = !modal.hidden;
+            document.getElementById('modal').style.backgroundColor = "#F5B1B7";
+        break;
+
+        case 'Leo':
+            console.log('sunflower button clicked');
+            speakers.src = `sounds/sunflower-sound.mp3`;
+            speakers.play();
+            zFlower.innerHTML = 'Sunflower';
+            zDate.innerHTML = 'July 23-August 22';
+            zTags.innerHTML = 'Loyalty, Boldness, Longevity';
+            zDescription.innerHTML = 'You shine bright for the world to see because you are unafraid to be your authentic self. You love meeting new people, and your warm, outgoing personality makes you a true joy to be around.';
+            zImage.src = 'graphics/sunflower-transparent.png';
+            modal.hidden = !modal.hidden;
+            document.getElementById('modal').style.backgroundColor = "#F9D9A1";
+        break;
+
+        case 'Vir':
+            console.log('poppy button clicked');
+            speakers.src = `sounds/poppy-sound.mp3`;
+            speakers.play();
+            zFlower.innerHTML = 'Poppy';
+            zDate.innerHTML = 'August 23-September 22';
+            zTags.innerHTML = 'Vibrance, Creativity, Enthusiasm';
+            zDescription.innerHTML = 'You are a natural leader, and your enthusiasm is apparent in everything you do! Your vibrant personality often makes you the center of attention, and you thrive under a spotlight.';
+            zImage.src = 'graphics/poppy-transparent.png';
+            modal.hidden = !modal.hidden;
+            document.getElementById('modal').style.backgroundColor = "#F6BBAB";
+        break;
+
+        case 'Lib':
+            console.log('geranium button clicked');
+            speakers.src = `sounds/geranium-sound.mp3`;
+            speakers.play();
+            zFlower.innerHTML = 'Geranium';
+            zDate.innerHTML = 'September 23-October 23';
+            zTags.innerHTML = 'Mystery, Ingenuity, Nonchalance';
+            zDescription.innerHTML = 'Geraniums grow in tight groups, and similarly, you like to stick to a small, close-knit group of acquaintances. The people closest to you will see the sensitive and clever sides of your personality, but to everyone else, you are a mystery.';
+            zImage.src = 'graphics/geranium-transparent.png';
+            modal.hidden = !modal.hidden;
+            document.getElementById('modal').style.backgroundColor = "#EDAAA4";
+        break;
+
+        case 'Sco':
+            console.log('marigold button clicked');
+            speakers.src = `sounds/marigold-sound.mp3`;
+            speakers.play();
+            zFlower.innerHTML = 'Marigold';
+            zDate.innerHTML = 'October 24-November 21';
+            zTags.innerHTML = 'Creativity, Versatility, Motivation';
+            zDescription.innerHTML = 'You are a hard-working person who is highly motivated to succeed. You strive to create harmony and incorporate creativity into all aspects of your life. You love taking on new challenges since they have the potential for success.';
+            zImage.src = 'graphics/marigold-transparent.png';
+            modal.hidden = !modal.hidden;
+            document.getElementById('modal').style.backgroundColor = "#F4B18D";
+        break;
+
+        case 'Sag':
+            console.log('chrysanthemum button clicked');
+            speakers.src = `sounds/chrysanthemum-sound.mp3`;
+            speakers.play();
+            zFlower.innerHTML = 'Chrysanthemum';
+            zDate.innerHTML = 'November 22-December 21';
+            zTags.innerHTML = 'Friendship, Sensitivity, Optimism';
+            zDescription.innerHTML = 'You are the best friend anyone can ask for and a true beacon of light! You are sensitive and nurturing, and you choose to see the best in every situation.';
+            zImage.src = 'graphics/chrysanthemum-transparent.png';
+            modal.hidden = !modal.hidden;
+            document.getElementById('modal').style.backgroundColor = "#D59884";
+        break;
+
+        case 'Cap':
+            console.log('pansy button clicked');
+            speakers.src = `sounds/pansy-sound.mp3`;
+            speakers.play();
+            zFlower.innerHTML = 'Pansy';
+            zDate.innerHTML = 'December 22-January 19';
+            zTags.innerHTML = 'Tenacity, Kindness, Thoughtfulness';
+            zDescription.innerHTML = 'Coming from a French word meaning "to think," pansies inspire reflection and contemplation. Likewise, you prefer thorough planning over jumping headfirst into a situation. You are ambitious and practical, which aids you in many facets of life.';
+            zImage.src = 'graphics/pansy-transparent.png';
+            modal.hidden = !modal.hidden;
+            document.getElementById('modal').style.backgroundColor = "#D9C3FB";
+        break;
+
+        case 'Aqu':
+            console.log('carnation button clicked');
+            speakers.src = `sounds/carnation-sound.mp3`;
+            speakers.play();
+            zFlower.innerHTML = 'Carnation';
+            zDate.innerHTML = 'January 20-February 18';
+            zTags.innerHTML = 'Fascination, Remembrance, Stability';
+            zDescription.innerHTML = 'Like carnations, which typically last longer than other flowers in a bouquet, people love that you are so dependable. You set high personal and career goals, but you always make time for the people that matter most.';
+            zImage.src = 'graphics/carnation-transparent.png';
+            modal.hidden = !modal.hidden;
+            document.getElementById('modal').style.backgroundColor = "#EDB4B3";
+        break;
+
+        case 'Pis':
+            console.log('orchid button clicked');
+            speakers.src = `sounds/orchid-sound.mp3`;
+            speakers.play();
+            zFlower.innerHTML = 'Orchid';
+            zDate.innerHTML = 'February 19-March 20';
+            zTags.innerHTML = 'Selflessness, Refinement, Uniqueness';
+            zDescription.innerHTML = 'You don not like to stand out in a crowd. You seem reserved unless surrounded by the people you trust. You stay true to who you are and do not conform to fit the social norm.';
+            zImage.src = 'graphics/orchid-transparent.png';
+            modal.hidden = !modal.hidden;
+            document.getElementById('modal').style.backgroundColor = "#EABFE7";
+        break;
+        default: console.log('A flower button was selected');
+    }
+}
+
+const userSubmitBtn = document.getElementById('userSubmit');
+
+userSubmitBtn.addEventListener('click', function() {
+    //console.log('Submit button clicked!');
+
+const userBday = new Date(document.getElementById('bday').value);
+    //console.log(userBday);
+
+    const whichMonth = userBday.getUTCMonth() + 1;
+    //console.log(`Users month is: ${whichMonth}`);
+
+    const whichDayOfMonth = userBday.getUTCDate();
+    //console.log(`Users birth day is: ${whichDayOfMonth}`);
+
+    // Zodiac Algorithm
+    if ((whichMonth == 12 && whichDayOfMonth >= 22) || (whichMonth == 1 && whichDayOfMonth <= 19)) {
+        AstroSign = "Cap";
+    } else if ((whichMonth == 11 && whichDayOfMonth >= 22) || (whichMonth == 12 && whichDayOfMonth <= 21)) {
+    AstroSign = "Sag";
+    } else if ((whichMonth == 10 && whichDayOfMonth >= 24) || (whichMonth == 11 && whichDayOfMonth <= 21)) {
+    AstroSign = "Sco";
+    } else if ((whichMonth == 9 && whichDayOfMonth >= 23) || (whichMonth == 10 && whichDayOfMonth <= 23)) {
+    AstroSign = "Lib";
+    } else if ((whichMonth == 8 && whichDayOfMonth >= 23) || (whichMonth == 9 && whichDayOfMonth <= 22)) {
+    AstroSign = "Vir";
+    } else if ((whichMonth == 7 && whichDayOfMonth >= 23) || (whichMonth == 8 && whichDayOfMonth <= 22)) {
+    AstroSign = "Leo";
+    } else if ((whichMonth == 6 && whichDayOfMonth >= 22) || (whichMonth == 7 && whichDayOfMonth <= 22)) {
+    AstroSign = "Can";
+    } else if ((whichMonth == 5 && whichDayOfMonth >= 21) || (whichMonth == 6 && whichDayOfMonth <= 21)) {
+    AstroSign = "Gem";
+    } else if ((whichMonth == 4 && whichDayOfMonth >= 20) || (whichMonth == 5 && whichDayOfMonth <= 20)) {
+    AstroSign = "Tau";
+    } else if ((whichMonth == 3 && whichDayOfMonth >= 21) || (whichMonth == 4 && whichDayOfMonth <= 19)) {
+    AstroSign = "Ari";
+    } else if ((whichMonth == 2 && whichDayOfMonth >= 19) || (whichMonth == 3 && whichDayOfMonth <= 20)) {
+    AstroSign = "Pis";
+    } else if ((whichMonth == 1 && whichDayOfMonth >= 20) || (whichMonth == 2 && whichDayOfMonth <= 18)) {
+    AstroSign = "Aqu";
+    console.log(AstroSign);
+    }
+
+    console.log(AstroSign);
+    userPicked(AstroSign);
+});
