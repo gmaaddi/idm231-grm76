@@ -287,3 +287,10 @@ const userBday = new Date(document.getElementById('bday').value);
     console.log(AstroSign);
     userPicked(AstroSign);
 });
+
+const modal = document.getElementById('modal');
+const backBtn = document.getElementById('backBtn');
+backBtn.addEventListener('click', function() {
+    console.log('Closed modal');
+    modal.hidden = !modal.hidden;
+});
