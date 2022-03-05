@@ -17,11 +17,14 @@
             <span class="highlight">Enter your birthday or select a flower to find out</span>
         </h2>
 
-        <div class="container-sun">
-        <div class="top-sun">
-            <h2 class="top-help">Need Help? <br> Click Here</h2>
-            <img src="../idm231-grm76/images-other/sun-solid.png" class="sun-img" alt="sun" width="240" height="240">
-        </div>
+        <div class="top__sun-container" id="helpBtn">
+            <div class="top-sun">
+                <h2 class="top__sun-text">
+                    Need Help? <br> Click Here</h2>
+                </h2>
+
+                <img src="images-other/sun-solid.png" class="sun-img" alt="sun" width="240" height="240">
+            </div>
         </div>
     </div>
 
@@ -95,7 +98,7 @@
         </div>
     </div>
 
-<div id="modal" class="modal-section" hidden>
+<div id="flowerModal" class="modal-section" hidden>
     <div class="modal-container" id="zContainer">
         <div class="modal">
             <div class="modal-title">
@@ -108,7 +111,7 @@
 
                 <div class="modal-description">
                     <p class="modal-text"><span id="zDescription">Daffodils bloom each year following the cold winter months. You are resilient when faced with obstacles and continuously bounce back. Your persistence and ability to adapt to your surroundings are your true strengths.</span></p>
-                    <img id="zImage" class="modal-transparent" width="115px" height="115px" src="graphics/daffodil-transparent.png" alt="flower-icon"/>
+                    <img id="zImage" class="modal-transparent" width="115px" height="115px" src="" alt="flower-icon"/>
                 </div>
             </div>
 
@@ -118,6 +121,12 @@
         </div>
     </div>
 </div>
+
+    <div id="sunModal" class="sunModal" hidden>
+        <p>
+            To get started, enter your birthday in the mm/dd/yyyy field and click submit. You can also click any of the twelve flower icons on the page to learn more about each flower. The results will be displayed in the center of the large flower on the page!
+        </p>
+    </div>
 
     <audio id="speakers"></audio>
     <script src="main.js"></script>

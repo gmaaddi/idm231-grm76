@@ -601,7 +601,7 @@ button {
     justify-content: center;
 }
 
-.top-help {
+.top__sun-text {
     position: relative;
     display: flex;
     align-items: center;
@@ -612,11 +612,21 @@ button {
     cursor:pointer;
 }
 
-.container-sun {
+.top__sun-container {
     position: absolute;
     top: 0;
     left: 900px;
     margin-top: 30px;
+}
+
+.sunModal {
+    position: absolute;
+    top: 0;
+    left: 1140px;
+    margin-top: 300px;
+    max-width: 240px;
+    background-color: #FCD847;
+    padding: 10px;
 }
 
 [hidden] {
