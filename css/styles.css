@@ -82,17 +82,6 @@ p {
     margin: 0 auto;
 }
 
-/* .middle {
-        position: relative;
-        width: 561.25px;
-        height: 546px;
-        border: 1px solid rgba(0,0,0,0.1);
-        border-radius: 50%;
-        transform: rotate(0deg);
-        transition: transform 0.7s linear;
-        margin: 0 auto;
-} */
-
 .flower1 {
     position: absolute;
     left: 678px;
@@ -199,13 +188,6 @@ p {
     justify-content: center;
 }
 
-/* .birthday {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-} */
-
 .flower-content {
     position: relative;
     display: flex;
@@ -261,14 +243,6 @@ button {
 .button-back {
     background-color:#FFFFF8;
 }
-
-/* .modal-section {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    align-content: center;
-    top: -154px;
-} */
 
 .flower-section {
     display: flex;
@@ -360,17 +334,13 @@ button {
 }
 
 .column-right {
-    width: 240px;
-    float: right;
-}
-
-.column-right {
     align-items: flex-start;
     display: flex;
     width: 20%;
     height: 100%;
     /* padding-right: 30px; */
     flex-direction: column;
+    float: right;
 }
 
 .sun-content__text {
