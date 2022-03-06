@@ -53,6 +53,7 @@ body {
 
 .highlight {
     background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
 }
 
 h1 {
@@ -77,17 +78,8 @@ p {
 
 .top {
     text-align: center;
-}
-  
-#icons {
-    width: 490px;
+    width: 50%;
     margin: 0 auto;
-    height: 490px;
-  }
-
-#icons img {
-    width: 82px;
-    height: 82px;
 }
 
 /* .middle {
@@ -198,8 +190,8 @@ p {
     cursor:pointer;
 }
 
-.flower {
-    text-align: center;
+.flower-img {
+    margin: 0 auto;
     position: absolute;
     z-index: 90;
     display: flex;
@@ -214,7 +206,7 @@ p {
     transform: translate(-50%, -50%);
 } */
 
-.content {
+.flower-content {
     position: relative;
     display: flex;
     align-items: center;
@@ -243,6 +235,7 @@ button {
     background-color:#FAEFCC;
     width: 160px;
     color: rgba(0, 0, 0, 0.6);
+    text-align: center;
 }
 
 .input-bday:hover {
@@ -281,7 +274,9 @@ button {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
+    margin-left: 20%;
 }
+
 .modal {
     display: flex;
     align-items: center;
@@ -354,271 +349,6 @@ button {
     margin-right: 5px;
 }
 
-/* .modal-container {
-    border-radius: 50%;
-    height: 450px;
-    width: 450px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    z-index: 200;
-    pointer-events: none;
-    opacity: 0;
-    transition: opacity 0.2s ease;
-} */
-
-/* .modal {
-    display: flex;
-    flex-direction: column;
-}
-
-.modal-name {
-    margin-top:  8px;
-    margin-bottom: 16px;
-    text-align: center;
-}
-
-.modal-date {
-    margin-top: 0px;
-    margin-bottom: 24px;
-    text-align: center;
-}
-
-.modal-tags {
-    text-align: left;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 80px;   
-}
-
-.modal-description {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 1.5;
-}
-
-.modal-text {
-    text-align: left;
-    margin-left: 80px;
-}
-
-.modal-transparent {
-    margin-right: 20px;
-} */
-
-/* Click flower icon (daffodil 1) */
-.modal-1 {
-    background-color: #D1DE96;
-    border: solid 5px #B4BF81;
-}
-.modal-1.show {
-    pointer-events: auto;
-    opacity: 1;
-}
-.button-back-1 {
-    box-shadow: 0px 8px 15px #B4BF81;
-    margin: 0 auto;
-}
-
-/* Click flower icon (daisy 2) */
-.modal-2 {
-    background-color: #ADE6E6;
-    border: solid 5px #96C6C6;
-}
-.modal-2.show {
-    pointer-events: auto;
-    opacity: 1;
-}
-.button-back-2 {
-    box-shadow: 0px 8px 15px #96C6C6;
-    margin: 0 auto;
-}
-
-/* Click flower icon (lily 3) */
-.modal-3 {
-    background-color: #F4C0D4;
-    border: solid 5px #D39FB3;
-}
-.modal-3.show {
-    pointer-events: auto;
-    opacity: 1;
-}
-.button-back-3 {
-    box-shadow: 0px 8px 15px #D39FB3;
-    margin: 0 auto;
-}
-
-/* Click flower icon (lily 4) */
-.modal-4 {
-    background-color: #F19099;
-    border: solid 5px #E38790;
-}
-.modal-4.show {
-    pointer-events: auto;
-    opacity: 1;
-}
-.button-back-4 {
-    box-shadow: 0px 8px 15px #E38790;
-    margin: 0 auto;
-}
-
-/* Click flower icon (sunflower 5) */
-.modal-5 {
-    background-color: #F9D9A1;
-    border: solid 5px #ECCD96;
-}
-.modal-5.show {
-    pointer-events: auto;
-    opacity: 1;
-}
-.button-back-5 {
-    box-shadow: 0px 8px 15px #ECCD96;
-    margin: 0 auto;
-}
-
-/* Click flower icon (poppy 6) */
-.modal-6 {
-    background-color: #F6BBAB;
-    border: solid 5px #E5AFA1;
-}
-.modal-6.show {
-    pointer-events: auto;
-    opacity: 1;
-}
-.button-back-6 {
-    box-shadow: 0px 8px 15px #E5AFA1;
-    margin: 0 auto;
-}
-
-/* Click flower icon (poppy 7) */
-.modal-7 {
-    background-color: #F08F87;
-    border: solid 5px #E1847D;
-}
-.modal-7.show {
-    pointer-events: auto;
-    opacity: 1;
-}
-.button-back-7 {
-    box-shadow: 0px 8px 15px #E1847D;
-    margin: 0 auto;
-}
-
-/* Click flower icon (marigold 8) */
-.modal-8 {
-    background-color: #F4B18D;
-    border: solid 5px #E8A784;
-}
-.modal-8.show {
-    pointer-events: auto;
-    opacity: 1;
-}
-.button-back-8 {
-    box-shadow: 0px 8px 15px #E8A784;
-    margin: 0 auto;
-}
-
-/* Click flower icon (chrysanthemum 9) */
-.modal-9 {
-    background-color: #D59884;
-    border: solid 5px #BF8977;
-}
-.modal-9.show {
-    pointer-events: auto;
-    opacity: 1;
-}
-.button-back-9 {
-    box-shadow: 0px 8px 15px #BF8977;
-    margin: 0 auto;
-}
-
-/* Click flower icon (chrysanthemum 10) */
-.modal-10 {
-    background-color: #D9C3FB;
-    border: solid 5px #CBB5ED;
-}
-.modal-10.show {
-    pointer-events: auto;
-    opacity: 1;
-}
-.button-back-10 {
-    box-shadow: 0px 8px 15px #CBB5ED;
-    margin: 0 auto;
-}
-
-/* Click flower icon (chrysanthemum 11) */
-.modal-11 {
-    background-color: #EDB4B3;
-    border: solid 5px #DEA8A7;
-}
-.modal-11.show {
-    pointer-events: auto;
-    opacity: 1;
-}
-.button-back-11 {
-    box-shadow: 0px 8px 15px #DEA8A7;
-    margin: 0 auto;
-}
-
-/* Click flower icon (orchid 12) */
-.modal-12 {
-    background-color: #EABFE7;
-    border: solid 5px #D9B1D6;
-}
-.modal-12.show {
-    pointer-events: auto;
-    opacity: 1;
-}
-.button-back-12 {
-    box-shadow: 0px 8px 15px #D9B1D6;
-    margin: 0 auto;
-}
-
-
-/* .top-sun {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: 0;
-    left: 0;
-    position: absolute;
-}
-
-.top-help {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-
-.top-sun {
-    text-align: center;
-    position: absolute;
-    z-index: 90;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-}
-
-.top__sun-text {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 100;
-    left: 50%;
-    width: 240px;
-    cursor:pointer;
-}
-
-.top__sun-container {
-    position: absolute;
-    top: 0;
-    left: 900px;
-    margin-top: 30px;
-}
-
 .sunModal {
     position: absolute;
     top: 0;
@@ -627,6 +357,41 @@ button {
     max-width: 240px;
     background-color: #FCD847;
     padding: 10px;
+}
+
+.column-right {
+    width: 240px;
+    float: right;
+}
+
+.column-right {
+    align-items: flex-start;
+    display: flex;
+    width: 20%;
+    height: 100%;
+    /* padding-right: 30px; */
+    flex-direction: column;
+}
+
+.sun-content__text {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 150;
+    width: 240px;
+    height: 240px;
+    text-align: left;
+    margin-left: 0;
+}
+
+.sun-img {
+    position: absolute;
+    z-index: 100;
+    width: 240px;
+    height: 240px;
+    margin: auto;
 }
 
 [hidden] {

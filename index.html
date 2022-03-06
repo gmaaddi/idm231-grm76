@@ -9,126 +9,116 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="top">
-        <h1>
-            <span class="highlight">Which Flower Are You?</span>
-        </h1>
-        <h2>
-            <span class="highlight">Enter your birthday or select a flower to find out</span>
-        </h2>
-
-        <div class="top__sun-container" id="helpBtn">
-            <div class="top-sun">
-                <h2 class="top__sun-text">
-                    Need Help? <br> Click Here</h2>
+    <div class="column column-right" id="helpBtn">
+        <!-- <div class="sun-content" id="helpBtn"> -->
+            <div class="sun-content__text">
+                <h2>
+                    Need Help? <br> Click Here
                 </h2>
+            </div>
 
+            <div class="sun-img">
                 <img src="images-other/sun-solid.png" class="sun-img" alt="sun" width="240" height="240">
             </div>
+        <!-- </div> -->
+
+        <div id="sunModal" class="sunModal" hidden>
+            <p>
+                To get started, enter your birthday in the mm/dd/yyyy field and click submit. You can also click any of the twelve flower icons on the page to learn more about each flower. The results will be displayed in the center of the large flower on the page!
+            </p>
         </div>
     </div>
 
-    <div class="middle">
-        
-        <section class="flower-section">
-            <div class="content">
-                <div class="content-birthday">
-                    <h2>Enter your birthday</h2>
+        <div class="top">
+            <h1>
+                <span class="highlight">Which Flower Are You?</span>
+            </h1>
+            <h2>
+                <span class="highlight">Enter your birthday or select a flower to find out</span>
+            </h2>
+        </div>
+
+        <div class="middle">
+            <div class="flower-section">
+                <div class="flower-content">
+                    <div class="flower-content__birthday">
+                        <h2>Enter your birthday</h2>
+                    </div>
+                
+                    <div class="flower-content__userInfo">
+                        <p><input class="input-bday" id="bday" type="date"></p>
+                        <p><button class="button-submit" id="userSubmit">Submit</button></p>
+                    </div>
                 </div>
-            
-                <div id="content-userInfo">
-                    <p><input class="input-bday" id="bday" type="date"></p>
-                    <p><button class="button-submit" id="userSubmit">Submit</button></p>
-                  </div>
-            </div>
 
-            <div class="flower">
-                <img src="../idm231-grm76/images-other/flower-central.png" alt="flower" width="561.25" height="546">
-            </div>
-        </section>
-
-        <div class="circle">
-            <div class="flower1" id="Ari">
-              <img src="../idm231-grm76/graphics/daffofil-min.png" alt="daffodil" width="82" height="82">
-            </div>
-
-            <div class="flower2" id="Tau">
-                <img src="../idm231-grm76/graphics/daisy-min.png" alt="daisy" width="82" height="82">
-            </div>
-
-            <div class="flower3" id="Gem">
-                <img src="../idm231-grm76/graphics/lily-min.png" alt="lily" width="82" height="82">
-            </div>
-
-            <div class="flower4" id="Can">
-                <img src="../idm231-grm76/graphics/rose-min.png" alt="rose" width="82" height="82">
-            </div>
-
-            <div class="flower5" id="Leo">
-                <img src="../idm231-grm76/graphics/sunflower-min.png" alt="sunflower" width="82" height="82">
-            </div>
-
-            <div class="flower6" id="Vir">
-                <img src="../idm231-grm76/graphics/poppy-min.png" alt="poppy" width="82" height="82">
-            </div>
-
-            <div class="flower7" id="Lib">
-                <img src="../idm231-grm76/graphics/geranium-min.png" alt="geranium" width="82" height="82">
-            </div>
-
-            <div class="flower8" id="Sco">
-                <img src="../idm231-grm76/graphics/marigold-min.png" alt="marigold" width="82" height="82">
-            </div>
-
-            <div class="flower9" id="Sag">
-                <img src="../idm231-grm76/graphics/chrysanthemum-min.png" alt="chrysanthemum" width="82" height="82">
-            </div>
-
-            <div class="flower10" id="Cap">
-                <img src="../idm231-grm76/graphics/pansy-min.png" alt="pansy" width="82" height="82">
-            </div>
-
-            <div class="flower11" id="Aqu">
-                <img src="../idm231-grm76/graphics/carnation-min.png" alt="carnation" width="82" height="82">
-            </div>
-
-            <div class="flower12" id="Pis">
-                <img src="../idm231-grm76/graphics/orchid-min.png" alt="orchid" width="82" height="82">
-            </div>
-        </div>
-    </div>
-
-<div id="flowerModal" class="modal-section" hidden>
-    <div class="modal-container" id="zContainer">
-        <div class="modal">
-            <div class="modal-title">
-                <h5 class="modal-name"><span id="zFlower">Daffodil</span></h5>
-                <h2 class="modal-date"><span id="zDate">March 21-April 20</span></h2>
-            </div>
-            
-            <div class="modal-content">
-                <h2 class="modal-tags"><span id="zTags">Hope, Rebirth, Spring</span></h2>
-
-                <div class="modal-description">
-                    <p class="modal-text"><span id="zDescription">Daffodils bloom each year following the cold winter months. You are resilient when faced with obstacles and continuously bounce back. Your persistence and ability to adapt to your surroundings are your true strengths.</span></p>
-                    <img id="zImage" class="modal-transparent" width="115px" height="115px" src="" alt="flower-icon"/>
+                <div class="flower-img">
+                    <img src="images-other/flower-central.png" alt="flower" width="561.25" height="546">
                 </div>
             </div>
 
-            <div class="modal-back">
-                <p><button class="button-back" id="backBtn">&larr; Back to Flowers</button></p>
+            <div class="circle">
+                <!-- Flower 1: daffodil -->
+                <img src="graphics/daffofil-min.png" class="flower1" id="Ari" alt="daffodil" width="82" height="82">
+
+                <!-- Flower 2: daisy -->
+                <img src="graphics/daisy-min.png" class="flower2" id="Tau" alt="daisy" width="82" height="82">
+
+                <!-- Flower 3: lily -->
+                <img src="graphics/lily-min.png" class="flower3" id="Gem" alt="lily" width="82" height="82">
+
+                <!-- Flower 4: rose -->
+                <img src="graphics/rose-min.png" class="flower4" id="Can" alt="rose" width="82" height="82">
+
+                <!-- Flower 5: sunflower -->
+                <img src="graphics/sunflower-min.png" class="flower5" id="Leo" alt="sunflower" width="82" height="82">
+
+                <!-- Flower 6: poppy -->
+                <img src="graphics/poppy-min.png" class="flower6" id="Vir" alt="poppy" width="82" height="82">
+
+                <!-- Flower 7: geranium -->
+                <img src="graphics/geranium-min.png" class="flower7" id="Lib" alt="geranium" width="82" height="82">
+
+                <!-- Flower 8: marigold -->
+                <img src="graphics/marigold-min.png" class="flower8" id="Sco" alt="marigold" width="82" height="82">
+
+                <!-- Flower 9: chrysanthemum -->
+                <img src="graphics/chrysanthemum-min.png" class="flower9" id="Sag" alt="chrysanthemum" width="82" height="82">
+
+                <!-- Flower 10: pansy -->
+                <img src="graphics/pansy-min.png" class="flower10" id="Cap" alt="pansy" width="82" height="82">
+                
+                <!-- Flower 11: carnation -->
+                <img src="graphics/carnation-min.png" class="flower11" id="Aqu" alt="carnation" width="82" height="82">
+
+                <!-- Flower 12: orchid -->
+                <img src="graphics/orchid-min.png" class="flower12" id="Pis" alt="orchid" width="82" height="82">
+            </div>
+        </div>
+
+    <div id="flowerModal" class="modal-section" hidden>
+        <div class="modal-container" id="zContainer">
+            <div class="modal">
+                <div class="modal-title">
+                    <h5 class="modal-name"><span id="zFlower">Daffodil</span></h5>
+                    <h2 class="modal-date"><span id="zDate">March 21-April 20</span></h2>
+                </div>
+                
+                <div class="modal-content">
+                    <h2 class="modal-tags"><span id="zTags">Hope, Rebirth, Spring</span></h2>
+
+                    <div class="modal-description">
+                        <p class="modal-text"><span id="zDescription">Daffodils bloom each year following the cold winter months. You are resilient when faced with obstacles and continuously bounce back. Your persistence and ability to adapt to your surroundings are your true strengths.</span></p>
+                        <img id="zImage" class="modal-transparent" width="115px" height="115px" src="" alt="flower-icon"/>
+                    </div>
+                </div>
+
+                <div class="modal-back">
+                    <p><button class="button-back" id="backBtn">&larr; Back to Flowers</button></p>
+                </div>
             </div>
         </div>
     </div>
-</div>
-
-    <div id="sunModal" class="sunModal" hidden>
-        <p>
-            To get started, enter your birthday in the mm/dd/yyyy field and click submit. You can also click any of the twelve flower icons on the page to learn more about each flower. The results will be displayed in the center of the large flower on the page!
-        </p>
-    </div>
-
-    <audio id="speakers"></audio>
-    <script src="main.js"></script>
+<audio id="speakers"></audio>
+<script src="main.js"></script>
 </body>
 </html>
