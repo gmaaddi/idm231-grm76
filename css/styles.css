@@ -241,16 +241,12 @@ button {
 }
 
 .button-back {
-    background-color: white;
+    background-color: #FFFFF8;
     border: #000 solid 1px;
 }
 
 .button-submit:hover {
     color: #000;
-}
-
-.button-back {
-    background-color:#FFFFF8;
 }
 
 .flower-section {
@@ -332,12 +328,18 @@ button {
 
 .sunModal {
     position: absolute;
-    top: 0;
-    left: 1140px;
-    margin-top: 300px;
+    /* top: 0;
+    left: 1140px; */
+    margin-top: 275px;
     max-width: 240px;
     background-color: #FCD847;
     padding: 10px;
+}
+
+.button-close-sun {
+    max-width: 100px;
+    background-color:#FAEFCC;
+    border: #000 solid 1px;
 }
 
 .column-right {

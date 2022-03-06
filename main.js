@@ -12,8 +12,6 @@ const pansyBtn = document.getElementById('Cap');
 const carnationBtn = document.getElementById('Aqu');
 const orchidBtn = document.getElementById('Pis');
 
-const helpBtn = document.getElementById('helpBtn');
-
 // Cap = pansy
 // Sag = chrysanthemum
 // Sco = marigold
@@ -75,11 +73,6 @@ orchidBtn.addEventListener('click', function() {
     userPicked('Pis');
 });
 
-helpBtn.addEventListener('click', function() {
-    userPicked('helpBtn');
-});
-
-
 function userPicked(buttonName) {
 
     const zFlower = document.getElementById('zFlower');
@@ -89,11 +82,6 @@ function userPicked(buttonName) {
     const zImage = document.getElementById('zImage');
 
     switch (buttonName) {
-
-        case 'helpBtn':
-            console.log('help button clicked');
-            sunModal.hidden = !flowerModal.hidden;
-        break;
 
         case 'Ari':
             console.log('daffodil button clicked');
@@ -306,3 +294,39 @@ backBtn.addEventListener('click', function() {
     console.log('Closed flower modal');
     flowerModal.hidden = !flowerModal.hidden;
 });
+
+
+
+// troubleshoot close sun
+const helpBtn = document.getElementById('helpBtn');
+// const closeSunModal = document.getElementById('closeSunModal');
+const sunModal = document.getElementById('sunModal');
+
+helpBtn.addEventListener('click', function() {
+    console.log('Click for help');
+    sunModal.hidden = !sunModal.hidden;
+});
+
+// closeBtn.addEventListener('click', function() {
+//     console.log('Closed sun modal');
+//     sunModal.hidden = !sunModal.hidden;
+// });
+
+// function needHelp(buttonSun) {
+
+//     switch (buttonSun) {
+
+//         case 'helpBtn':
+//             console.log('help button clicked');
+//             sunModal.hidden = !sunModal.hidden;
+//         break;
+//         default: console.log('Help button was clicked');
+//     }
+// }
+
+// const sunModal = document.getElementById('sunModal');
+// const closeBtn = document.getElementById('backBtn');
+// closeBtn.addEventListener('click', function() {
+//     console.log('Closed sun modal');
+//     sunModal.hidden = !sunModal.hidden;
+// });
