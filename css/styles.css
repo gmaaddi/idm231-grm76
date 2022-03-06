@@ -213,7 +213,7 @@ button {
 .input-bday {
 	border: #000 solid 1px;
 	border-radius:20px;
-    padding: 4px;
+    padding: 4px 0;
     background-color:#FAEFCC;
     width: 160px;
     color: rgba(0, 0, 0, 0.6);
@@ -222,13 +222,18 @@ button {
 
 .input-bday:hover {
     color: #000;
+    box-shadow: 3px 3px 0 #DC8E91; 
 }
 
 .button-submit {
     background-color:#FFF1C6;
     border: #000 solid 1px;
-    transition: all 0.2s ease-in-out;
     color: rgba(0, 0, 0, 0.6);
+    width: 160px;
+}
+
+.button-submit:hover {
+    box-shadow: 3px 3px 0 #DC8E91; 
 }
 
 .button-back {
@@ -268,8 +273,6 @@ button {
     border-radius: 50%;
     height: 450px;
     width: 450px;
-    /* position: absolute; */
-    /* pointer-events: none; */
     background-color: aqua;
     z-index: 200;
 }
@@ -334,13 +337,12 @@ button {
 }
 
 .column-right {
-    align-items: flex-start;
     display: flex;
     width: 20%;
     height: 100%;
-    /* padding-right: 30px; */
     flex-direction: column;
     float: right;
+    cursor: pointer;
 }
 
 .sun-content__text {
