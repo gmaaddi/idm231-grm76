@@ -179,6 +179,10 @@ p {
     cursor:pointer;
 }
 
+.circle-icon:hover {
+    transform:translateY(-3px);
+}
+
 .flower-img {
     margin: 0 auto;
     position: absolute;
