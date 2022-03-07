@@ -334,12 +334,18 @@ button {
     max-width: 240px;
     background-color: #FCD847;
     padding: 10px;
+    float: right;
+    max-height: 240px;
 }
 
 .button-close-sun {
     max-width: 100px;
     background-color:#FAEFCC;
     border: #000 solid 1px;
+}
+
+.button-close-sun:hover {
+    box-shadow: 3px 3px 0 #DC8E91; 
 }
 
 .column-right {
@@ -369,7 +375,7 @@ button {
     z-index: 100;
     width: 240px;
     height: 240px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 [hidden] {

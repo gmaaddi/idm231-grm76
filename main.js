@@ -301,16 +301,17 @@ backBtn.addEventListener('click', function() {
 const helpBtn = document.getElementById('helpBtn');
 // const closeSunModal = document.getElementById('closeSunModal');
 const sunModal = document.getElementById('sunModal');
+const closeBtn = document.getElementById('closeBtn');
 
 helpBtn.addEventListener('click', function() {
     console.log('Click for help');
     sunModal.hidden = !sunModal.hidden;
 });
 
-// closeBtn.addEventListener('click', function() {
-//     console.log('Closed sun modal');
-//     sunModal.hidden = !sunModal.hidden;
-// });
+closeBtn.addEventListener('click', function() {
+    console.log('Closed sun modal');
+    sunModal.hidden = !sunModal.hidden;
+});
 
 // function needHelp(buttonSun) {
 
