@@ -103,7 +103,7 @@ function userPicked(buttonName) {
             zFlower.innerHTML = 'Daisy';
             zDate.innerHTML = 'April 20-May 20';
             zTags.innerHTML = 'Innocence, Simplicity, Joy';
-            zDescription.innerHTML = 'Your cheery, easygoing personality is what people love most about you! You have a positive outlook on life and choose to see the best in every situation.';
+            zDescription.innerHTML = 'Your cheery, easygoing personality is what people love most about you! You have a positive outlook on life and choose to see the best in every situation, making you a true joy to be around.';
             zImage.src = 'graphics/daisy-transparent.png';
             flowerModal.hidden = !flowerModal.hidden;
             document.getElementById('flowerModal').style.backgroundColor = "#ADE6E6";
@@ -116,7 +116,7 @@ function userPicked(buttonName) {
             zFlower.innerHTML = 'Lily';
             zDate.innerHTML = 'May 21-June 21';
             zTags.innerHTML = 'Warmth, Gentleness, Compassion';
-            zDescription.innerHTML = 'You have a natural ability to bring comfort to anyone seeking your help. Your delicate touch makes people feel safe enough to confide in you.';
+            zDescription.innerHTML = 'You have a natural ability to bring comfort to anyone seeking your help, and you always how to make others feel better. Your delicate touch makes people feel safe enough to confide in you and fully express themselves.';
             zImage.src = 'graphics/lily-transparent.png';
             flowerModal.hidden = !flowerModal.hidden;
             document.getElementById('flowerModal').style.backgroundColor = "#F9DDE7";
@@ -129,7 +129,7 @@ function userPicked(buttonName) {
             zFlower.innerHTML = 'Rose';
             zDate.innerHTML = 'June 22-July 22';
             zTags.innerHTML = 'Love, Passion, Sophistication';
-            zDescription.innerHTML = 'Guided by your emotions, you tend to think with your heart. You may appear guarded or closed off at first, but the thorns exist to protect you from getting hurt.';
+            zDescription.innerHTML = 'Guided by your emotions, you tend to think more with your heart than your head. You may appear guarded or closed off at first, but you just want to protect yourself from disappointment and heartbreak.';
             zImage.src = 'graphics/rose-transparent.png';
             flowerModal.hidden = !flowerModal.hidden;
             document.getElementById('flowerModal').style.backgroundColor = "#F5B1B7";
@@ -155,7 +155,7 @@ function userPicked(buttonName) {
             zFlower.innerHTML = 'Poppy';
             zDate.innerHTML = 'August 23-September 22';
             zTags.innerHTML = 'Vibrance, Creativity, Enthusiasm';
-            zDescription.innerHTML = 'You are a natural leader, and your enthusiasm is apparent in everything you do! Your vibrant personality often makes you the center of attention, and you thrive under a spotlight.';
+            zDescription.innerHTML = 'You are a natural leader, and your enthusiasm is apparent in everything you do! Your vibrant personality often makes you the center of attention, and you thrive when given the opportunity to shine.';
             zImage.src = 'graphics/poppy-transparent.png';
             flowerModal.hidden = !flowerModal.hidden;
             document.getElementById('flowerModal').style.backgroundColor = "#F6BBAB";
@@ -181,7 +181,7 @@ function userPicked(buttonName) {
             zFlower.innerHTML = 'Marigold';
             zDate.innerHTML = 'October 24-November 21';
             zTags.innerHTML = 'Creativity, Versatility, Motivation';
-            zDescription.innerHTML = 'You are a hard-working person who is highly motivated to succeed. You strive to create harmony and incorporate creativity into all aspects of your life. You love taking on new challenges since they have the potential for success.';
+            zDescription.innerHTML = 'You are a hard-working person who is highly motivated to succeed. You strive to create harmony and incorporate creativity into all aspects of your life. You love taking on new challenges because you want to succeed.';
             zImage.src = 'graphics/marigold-transparent.png';
             flowerModal.hidden = !flowerModal.hidden;
             document.getElementById('flowerModal').style.backgroundColor = "#F4B18D";
@@ -207,7 +207,7 @@ function userPicked(buttonName) {
             zFlower.innerHTML = 'Pansy';
             zDate.innerHTML = 'December 22-January 19';
             zTags.innerHTML = 'Tenacity, Kindness, Thoughtfulness';
-            zDescription.innerHTML = 'Coming from a French word meaning "to think," pansies inspire reflection and contemplation. Likewise, you prefer thorough planning over jumping headfirst into a situation. You are ambitious and practical, which aids you in many facets of life.';
+            zDescription.innerHTML = 'Pansies inspire reflection and contemplation. Likewise, you prefer thorough planning over jumping headfirst into a situation. You are ambitious and practical, which aids you in many facets of life.';
             zImage.src = 'graphics/pansy-transparent.png';
             flowerModal.hidden = !flowerModal.hidden;
             document.getElementById('flowerModal').style.backgroundColor = "#D9C3FB";
@@ -232,8 +232,8 @@ function userPicked(buttonName) {
             speakers.play();
             zFlower.innerHTML = 'Orchid';
             zDate.innerHTML = 'February 19-March 20';
-            zTags.innerHTML = 'Selflessness, Refinement, Uniqueness';
-            zDescription.innerHTML = 'You do not like to stand out in a crowd. You seem reserved unless surrounded by the people you trust. You stay true to who you are and do not conform to fit the social norm.';
+            zTags.innerHTML = 'Altruism, Refinement, Uniqueness';
+            zDescription.innerHTML = 'You seem reserved unless you are surrounded by the people you trust, and you do not like to stand out in a crowd. You stay true to who you are and do not conform to fit the social norm.';
             zImage.src = 'graphics/orchid-transparent.png';
             flowerModal.hidden = !flowerModal.hidden;
             document.getElementById('flowerModal').style.backgroundColor = "#EABFE7";
