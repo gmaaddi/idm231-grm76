@@ -296,10 +296,8 @@ backBtn.addEventListener('click', function() {
 });
 
 
-
-// troubleshoot close sun
+// Open & Close sunModal
 const helpBtn = document.getElementById('helpBtn');
-// const closeSunModal = document.getElementById('closeSunModal');
 const sunModal = document.getElementById('sunModal');
 const closeBtn = document.getElementById('closeBtn');
 
@@ -312,22 +310,3 @@ closeBtn.addEventListener('click', function() {
     console.log('Closed sun modal');
     sunModal.hidden = !sunModal.hidden;
 });
-
-// function needHelp(buttonSun) {
-
-//     switch (buttonSun) {
-
-//         case 'helpBtn':
-//             console.log('help button clicked');
-//             sunModal.hidden = !sunModal.hidden;
-//         break;
-//         default: console.log('Help button was clicked');
-//     }
-// }
-
-// const sunModal = document.getElementById('sunModal');
-// const closeBtn = document.getElementById('backBtn');
-// closeBtn.addEventListener('click', function() {
-//     console.log('Closed sun modal');
-//     sunModal.hidden = !sunModal.hidden;
-// });
