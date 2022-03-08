@@ -280,6 +280,8 @@ button {
     width: 450px;
     background-color: aqua;
     z-index: 200;
+    animation: fadeIn .15s ease-in forwards;
+    opacity: 0;
 }
 
 .modal-container {
@@ -333,6 +335,16 @@ button {
     margin-right: 5px;
 }
 
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
 .sunModal {
     position: absolute;
     /* top: 0;
@@ -343,6 +355,8 @@ button {
     padding: 10px;
     float: right;
     max-height: 240px;
+    animation: fadeIn .15s ease-in forwards .15s;
+    opacity: 0;
 }
 
 .button-close-sun {
