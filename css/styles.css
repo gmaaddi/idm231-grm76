@@ -56,21 +56,25 @@ body {
     padding: 5px 10px;
 }
 
+/* 50.528px */
 h1 {
     font-family: 'PrincessSofia-Regular';
     font-size: 3.158rem;
 }
 
+/* 48.832px */
 h2 {
+    font-family: 'PrincessSofia-Regular';
+    font-size: 39.06px;
+}
+
+/* 21.328px */
+h3 {
     font-family: 'Lora-Medium';
     font-size: 1.333rem;
 }
 
-h5 {
-    font-family: 'PrincessSofia-Regular';
-    font-size: 3.052rem;
-}
-
+/* 14px */
 p {
     font-family: 'Lora-Medium';
     font-size: 0.875rem;
@@ -261,6 +265,7 @@ button {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    height: 450px;
 }
 
 .modal-section {
@@ -268,7 +273,7 @@ button {
     justify-content: center;
     position: relative;
     align-content: center;
-    top: -142px;
+    top: -152px;
     left: 494px;
     border-radius: 50%;
     height: 450px;
@@ -288,22 +293,24 @@ button {
 }
 
 .modal-name {
-    margin-top: 32px;
-    margin-bottom: 8px;
+    margin-top: 0px;
+    margin-bottom: 16px;
 }
 
 .modal-date {
     margin-top: 0px;
-    margin-bottom: 32px;
+    margin-bottom: 16px;
 }
 
 .modal-content {
     text-align: left; 
     margin-top: 0; 
-    margin-bottom: 8px;
+    margin-bottom: 16px;
     margin-left: auto;
     margin-right: auto;
     max-width: 380px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .modal-tags {
@@ -322,7 +329,7 @@ button {
 
 .modal-text {
     margin-top: 0;
-    margin-bottom: 0;
+    /* margin-bottom: 16px; */
     margin-right: 5px;
 }
 
