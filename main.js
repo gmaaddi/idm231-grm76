@@ -142,7 +142,7 @@ function userPicked(buttonName) {
             zFlower.innerHTML = 'Sunflower';
             zDate.innerHTML = 'July 23-August 22';
             zTags.innerHTML = 'Loyalty, Boldness, Longevity';
-            zDescription.innerHTML = 'You shine bright for the world to see because you are unafraid to be your authentic self. You love meeting new people, and your warm, outgoing personality makes you a true joy to be around.';
+            zDescription.innerHTML = 'You shine bright for the world to see because you are unafraid to be your authentic self. You love meeting new people, and your warm, outgoing personality makes you truly delightful to be around.';
             zImage.src = 'graphics/sunflower-transparent.png';
             flowerModal.hidden = !flowerModal.hidden;
             document.getElementById('flowerModal').style.backgroundColor = "#F9D9A1";
