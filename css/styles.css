@@ -365,7 +365,7 @@ button:hover {
     border: black solid 1px;
 }
 
-.column-right {
+.sun-column {
     display: flex;
     width: 20%;
     height: 100%;
@@ -374,7 +374,7 @@ button:hover {
     cursor: pointer;
 }
 
-.sun-content__text {
+.sun-column__text {
     position: relative;
     display: flex;
     align-items: center;
@@ -395,7 +395,7 @@ button:hover {
     margin: -120px auto 0;
 }
 
-.sun-glow:hover {
+.sun-column__glow:hover {
     filter: drop-shadow(0 0 60px var(--color-yellow-glow));
 }
 
