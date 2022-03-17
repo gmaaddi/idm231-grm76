@@ -303,6 +303,8 @@ const closeBtn = document.getElementById('closeBtn');
 
 helpBtn.addEventListener('click', function() {
     console.log('Click for help');
+    speakers.src = `sounds/sun-sound.mp3`;
+    speakers.play();
     sunModal.hidden = !sunModal.hidden;
 });
 
