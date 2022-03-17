@@ -391,7 +391,7 @@ button:hover {
 }
 
 .sun-glow:hover {
-    filter: drop-shadow(0 0 2000px rgb(255, 217, 0));
+    filter: drop-shadow(0 0 60px #ffcd05);
 }
 
 [hidden] {
