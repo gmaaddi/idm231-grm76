@@ -15,6 +15,15 @@
     font-display: swap;
 }
 
+:root {
+    --color-white-semitransparent: rgba(255, 255, 255, 0.8);
+    --color-white: #FFFFF8;
+    --color-pink-petals: #DC8E91;
+    --color-yellow-pale: #FAEFCC;
+    --color-yellow-dark: #FCD847;
+    --color-yellow-glow: #ffcd05;
+}
+
 body {
     background-image: url("../images-other/background-new.jpeg");
     background-size: 1500px 1008.98px;
@@ -52,7 +61,7 @@ p {
 }
 
 .title__highlight {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: var(--color-white-semitransparent);
     padding: 5px 10px;
 }
 
@@ -197,7 +206,7 @@ p {
 	border: #000 solid 1px;
 	border-radius:20px;
     padding: 4px 0;
-    background-color:#FAEFCC;
+    background-color: var(--color-yellow-pale);
     width: 160px;
     color: rgba(0, 0, 0, 0.6);
     text-align: center;
@@ -205,7 +214,7 @@ p {
 
 .input-bday:hover {
     color: #000;
-    box-shadow: 3px 3px 0 #DC8E91; 
+    box-shadow: 3px 3px 0 var(--color-pink-petals); 
 }
 
 button {
@@ -221,24 +230,24 @@ button {
 }
 
 button:hover {
-    color: #000;
-    box-shadow: 3px 3px 0 #DC8E91; 
+    color: black;
+    box-shadow: 3px 3px 0 var(--color-pink-petals); 
 }
 
 .button-submit {
-    background-color:#FFF1C6;
-    border: #000 solid 1px;
+    background-color: var(--color-yellow-pale);
+    border: black solid 1px;
     color: rgba(0, 0, 0, 0.6);
     width: 160px;
 }
 
 .button-back {
-    background-color: #FFFFF8;
-    border: #000 solid 1px;
+    background-color: var(--color-white);
+    border: black solid 1px;
 }
 
 .button-submit:hover {
-    color: #000;
+    color: black;
 }
 
 .flower-section {
@@ -342,7 +351,7 @@ button:hover {
     margin-top: 275px;
     margin-right: 15px;
     max-width: 240px;
-    background-color: #FCD847;
+    background-color: var(--color-yellow-dark);
     padding: 10px;
     float: right;
     max-height: 240px;
@@ -352,12 +361,8 @@ button:hover {
 
 .button-close-sun {
     max-width: 100px;
-    background-color:#FAEFCC;
+    background-color: var(--color-yellow-pale);
     border: #000 solid 1px;
-}
-
-.button-close-sun:hover {
-    box-shadow: 3px 3px 0 #DC8E91; 
 }
 
 .column-right {
@@ -391,7 +396,7 @@ button:hover {
 }
 
 .sun-glow:hover {
-    filter: drop-shadow(0 0 60px #ffcd05);
+    filter: drop-shadow(0 0 60px var(--color-yellow-glow));
 }
 
 [hidden] {
